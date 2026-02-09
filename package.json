@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Peter-diper.github.io/note-application-main/",
   "name": "02-note-app",
   "private": true,
   "version": "0.0.0",
@@ -7,10 +8,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
